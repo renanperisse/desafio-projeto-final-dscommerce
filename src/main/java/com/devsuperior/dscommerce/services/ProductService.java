@@ -7,12 +7,15 @@ import com.devsuperior.dscommerce.entities.Category;
 import com.devsuperior.dscommerce.entities.Product;
 import com.devsuperior.dscommerce.repositories.CategoryRepository;
 import com.devsuperior.dscommerce.repositories.ProductRepository;
+import com.devsuperior.dscommerce.services.exceptions.DatabaseException;
+import com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Optional;
+import static com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException.RESOURCE_NOT_FOUND;
 
 @Service
 public class ProductService {
@@ -33,9 +36,8 @@ public class ProductService {
 
     @Transactional(readOnly = true)
     public ProductDTO findById(Long id) {
-        Optional<Product> product = repository.findProductWithCategoriesById(id);
-        Product result = (product.get());
-        return new ProductDTO(result);
+        Product product = repository.findProductWithCategoriesById(id).orElseThrow(() -> new ResourceNotFoundException(RESOURCE_NOT_FOUND));
+        return new ProductDTO(product);
     }
 
     @Transactional
@@ -48,14 +50,22 @@ public class ProductService {
 
     @Transactional
     public ProductDTO update(Long id, ProductDTO dto) {
-        Product product = repository.findProductWithCategoriesById(id).get();
+        Product product = repository.findProductWithCategoriesById(id).orElseThrow(() -> new ResourceNotFoundException(RESOURCE_NOT_FOUND));
         copyDtoForEntity(product, dto);
         repository.save(product);
         return new ProductDTO(product);
     }
 
+    @Transactional
     public void delete(Long id) {
-        repository.deleteById(id);
+        if (!repository.existsById(id)) {
+            throw new ResourceNotFoundException(RESOURCE_NOT_FOUND);
+        }
+        try {
+            repository.deleteById(id);
+        } catch (DataIntegrityViolationException e) {
+            throw new DatabaseException("Falha de integridade referencial.");
+        }
     }
 
     private void copyDtoForEntity(Product product, ProductDTO dto) {
