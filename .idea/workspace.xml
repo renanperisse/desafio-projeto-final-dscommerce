@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70684abf-d01b-4c13-8056-66797ece22e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <workItem from="1746022402455" duration="1001000" />
       <workItem from="1746026925655" duration="27000" />
       <workItem from="1746026960841" duration="24321000" />
-      <workItem from="1746119270090" duration="6205000" />
+      <workItem from="1746119270090" duration="6800000" />
     </task>
     <servers />
   </component>
