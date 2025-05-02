@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70684abf-d01b-4c13-8056-66797ece22e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/CustomError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/FieldMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/ValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ProductDTO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     "Spring Boot.DscommerceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/renanperisse/Documentos/Spring Boot/clients",
+    "last_opened_file_path": "/home/renanperisse/Documentos/Spring Boot/dscommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +98,8 @@
       <workItem from="1746022402455" duration="1001000" />
       <workItem from="1746026925655" duration="27000" />
       <workItem from="1746026960841" duration="24321000" />
-      <workItem from="1746119270090" duration="10106000" />
+      <workItem from="1746119270090" duration="11058000" />
+      <workItem from="1746201541999" duration="408000" />
     </task>
     <servers />
   </component>
