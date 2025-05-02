@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70684abf-d01b-4c13-8056-66797ece22e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1746026960841" duration="24321000" />
       <workItem from="1746119270090" duration="11058000" />
       <workItem from="1746201541999" duration="2212000" />
-      <workItem from="1746216832731" duration="309000" />
+      <workItem from="1746216832731" duration="1282000" />
     </task>
     <servers />
   </component>
