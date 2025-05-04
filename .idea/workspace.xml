@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70684abf-d01b-4c13-8056-66797ece22e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/projections/UserDetailsProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,7 @@
       <workItem from="1746216832731" duration="3886000" />
       <workItem from="1746224439102" duration="610000" />
       <workItem from="1746396133841" duration="1692000" />
+      <workItem from="1746398493630" duration="307000" />
     </task>
     <servers />
   </component>
