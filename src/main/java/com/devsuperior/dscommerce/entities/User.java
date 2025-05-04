@@ -97,6 +97,10 @@ public class User {
         return orders;
     }
 
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
     public void addRole(Role role) {
         roles.add(role);
     }
