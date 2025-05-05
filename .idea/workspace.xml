@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70684abf-d01b-4c13-8056-66797ece22e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/ClientDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/OrderItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/PaymentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/repositories/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/services/exceptions/ForbiddenException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/CustomError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/CustomErrorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/ValidationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dscommerce/dtos/ValidationError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/CustomError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/FieldMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ValidationError.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +106,7 @@
       <workItem from="1746216832731" duration="3886000" />
       <workItem from="1746224439102" duration="610000" />
       <workItem from="1746396133841" duration="1692000" />
-      <workItem from="1746398493630" duration="6765000" />
+      <workItem from="1746398493630" duration="7070000" />
     </task>
     <servers />
   </component>
