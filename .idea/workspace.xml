@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70684abf-d01b-4c13-8056-66797ece22e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/handlers/ControllerExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/CustomError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/FieldMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ProductDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/dtos/ValidationError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/config/customgrant/CustomPasswordAuthenticationConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/config/customgrant/CustomPasswordAuthenticationConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/config/customgrant/CustomPasswordAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/config/customgrant/CustomPasswordAuthenticationProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/services/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dscommerce/services/OrderService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,7 @@
       <workItem from="1746216832731" duration="3886000" />
       <workItem from="1746224439102" duration="610000" />
       <workItem from="1746396133841" duration="1692000" />
-      <workItem from="1746398493630" duration="7070000" />
+      <workItem from="1746398493630" duration="7498000" />
     </task>
     <servers />
   </component>
