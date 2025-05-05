@@ -1,12 +1,12 @@
 package com.devsuperior.dscommerce.dtos;
 
-public class FieldMessage {
+public class FieldMessageDTO {
 
     private String fieldName;
 
     private String message;
 
-    public FieldMessage(String fieldName, String message) {
+    public FieldMessageDTO(String fieldName, String message) {
         this.fieldName = fieldName;
         this.message = message;
     }
